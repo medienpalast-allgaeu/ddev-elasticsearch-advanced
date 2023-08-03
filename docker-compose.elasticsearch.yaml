@@ -21,6 +21,7 @@ services:
       com.ddev.approot: $DDEV_APPROOT
     volumes:
       - elasticsearch:/usr/share/elasticsearch/data
+      - ./elasticsearch/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml
       - ".:/mnt/ddev_config"
 
   kibana:

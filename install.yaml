@@ -5,6 +5,7 @@ pre_install_actions:
 project_files:
 - docker-compose.elasticsearch.yaml
 - elasticsearch/Dockerfile
+- elasticsearch/elasticsearch.yml
 
 global_files:
 
